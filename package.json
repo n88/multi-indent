@@ -1,0 +1,18 @@
+{
+  "name": "multi-indent",
+  "main": "./lib/multi-indent",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "multi-indent:toggle"
+  },
+  "repository": "https://github.com/n88",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

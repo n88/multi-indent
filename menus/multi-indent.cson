@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle multi-indent'
+      'command': 'multi-indent:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'multi-indent'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'multi-indent:toggle'
+        }
+      ]
+    ]
+  }
+]
